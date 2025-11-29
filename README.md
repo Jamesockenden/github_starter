@@ -1,28 +1,32 @@
 ﻿# Starter Repository Template
 
-This repository demonstrates a clean, modern GitHub project
-structure with:
+![GitHub Workflow](https://github.com/Jamesockenden/github_starter/actions/workflows/lint-markdown.yml/badge.svg)
+![License](https://img.shields.io/badge/license-CC--BY--NC%204.0-blue)
 
-- A meaningful `README.md`
-- Automated linting of Markdown and repository structure
-- A documentation section following common best practices
-- Example GitHub workflows
-- A predictable, maintainable folder layout
+Clean, lightweight GitHub repository template for internal and
+open-source projects. Use this to kickstart new repos with a
+consistent layout and basic automation.
 
-Use this as a baseline for new projects or as a pattern for
-internal tooling repositories.
+---
+
+## Table of contents
+
+- [Features](#features)
+- [Automation Overview](#automation-overview)
+- [Quick Start](#quick-start)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
 ## Features
 
-### Documentation
+### 📘 Documentation
 
-- `/docs` folder with a navigation entry (`index.md`)
-- Architecture notes
-- Example ADRs for decision history
+- `/docs` with an `index.md` navigation entry
+- Architecture notes and example ADRs for decisions
 
-### Automation
+### 🤖 Automation
 
 - Markdown linting via GitHub Actions
 - Repository validation for naming, required files, and
@@ -30,55 +34,36 @@ internal tooling repositories.
 
 ## Automation Overview
 
-This repository uses two complementary automation systems to
-maintain quality, consistency, and structure:
+This repository uses two automation approaches to maintain
+quality and consistency:
 
-- **GitHub Actions** - CI/CD, structural validation, and
-  markdown linting. File: `.github/workflows/*.yml`. Runs on
-  GitHub-hosted runners.
+- **GitHub Actions** — CI and repo validation. File:
+  `.github/workflows/*.yml`.
+- **GitHub Agents** — AI-assisted content reviews and
+  suggestions. File: `.github/agents/*.agent.md`.
 
-- **GitHub Agents** - AI-assisted content review and
-  documentation suggestions. File: `.github/agents/*.agent.md`.
-  Runs on the GitHub Agents runtime.
+## Quick Start
 
-### Why Both?
-
-- **GitHub Actions** provide deterministic, rule-based
-  automation. Examples: linting, formatting, and structural
-  validation.
-
-- **GitHub Agents** provide intelligent automation that can
-  interpret intent, suggest content improvements, and assist
-  contributors.
-
-Using both ensures the repository stays clean, consistent,
-and aligned with modern best practices.
-
-### Structure
-
-- Source lives in `/src`
-- GitHub workflows under `.github/workflows`
-- `ISSUE_TEMPLATE` directory included
-
----
-
-## Getting Started
-
-Clone the repository:
+Clone the template and begin:
 
 ```bash
 git clone <your-repo-url>
 cd <repo>
 ```
 
+Start by editing `README.md` and `docs/index.md` to fit your
+project. Add code under `src/` and update or add workflows in
+`.github/workflows/` as needed.
+
+## Contributing
+
+See `CONTRIBUTING.md` for guidance on repository standards,
+linting and PR workflows.
+
 ## License
 
 This project is licensed under the Creative Commons
-**Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**
-license.
+Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+See the `LICENSE` file for details.
 
-You are free to use, adapt, and share this material for
-non-commercial purposes as long as attribution is provided.
-
-See the [LICENSE](LICENSE) file for full details.
 SPDX-License-Identifier: CC-BY-NC-4.0
