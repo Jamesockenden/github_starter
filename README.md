@@ -29,27 +29,28 @@ new GitHub projects quickly and consistently.
 
 ## ✨ Quick start
 
-1. On GitHub, click **Use this template → Create a new repository**.
-2. (Optional) Install Python deps locally:
+- On GitHub, click **Use this template → Create a new repository**.
+
+- (Optional) Install Python deps locally:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Generate a new project with Cookiecutter (if used):
+- Generate a new project with Cookiecutter (if used):
 
 ```bash
 cookiecutter cookiecutter/
 ```
 
-4. (Optional) Create a GitHub repo automatically from this machine:
+- (Optional) Create a GitHub repo automatically from this machine:
 
 ```bash
 python scripts/create_repo.py --name my-new-project \
   --private --description "My project bootstrapped from github_starter"
 ```
 
-Quick usage example (create a project and install deps):
+- Quick usage example (create a project and install deps):
 
 ```bash
 cookiecutter cookiecutter/ my-new-project
