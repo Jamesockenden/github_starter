@@ -1,0 +1,6 @@
+site_name: GitHub Starter
+nav:
+  - Home: index.md
+  - Usage: docs/usage.md
+theme:
+  name: material
