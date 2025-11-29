@@ -1,4 +1,4 @@
-# Name
+﻿# Name
 
 Repository Structure Validator Agent
 
@@ -10,11 +10,11 @@ and conventions (paths, required files, naming), not content.
 
 ## Actions
 
-- list_dir  : enumerate directories
-- read_file : inspect file contents when needed
-- write_file: create or patch small, non-content-changing files
-- create_directory: create missing directories
-- create_pr : open a PR with proposed fixes
+- `list_dir`  enumerate directories
+- `read_file`  inspect file contents when needed
+- `write_file`  create or patch small, non-content-changing files
+- `create_directory`  create missing directories
+- `create_pr`  open a PR with proposed fixes
 
 ## Instructions
 
@@ -57,17 +57,18 @@ report with proposed fixes (and a PR when requested):
 
 ## Triggers
 
+When needed, the agent may accept these command triggers (examples):
+
+```yaml
 on_comment:
   - "/validate-structure"
 
 on_push:
   - branches: [main]
+```
 
 When triggered, the agent should run the checks and either
 post a report comment (summary + commands) or create a PR with
 the proposed fixes if the user asks for it.
 
-
-## Description
-
-Validate folder structure, propose fixes
+Validate folder structure and propose fixes where appropriate.

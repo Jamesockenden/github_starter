@@ -1,4 +1,4 @@
-(## Summary
+﻿# Summary
 
 Describe the purpose of this pull request and the high-level
 changes it contains.
@@ -63,4 +63,3 @@ Link any related issues, e.g., `Fixes #123`.
 
 Anything the reviewer should know (design notes, potential
 side-effects, reasons for approach).
-

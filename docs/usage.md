@@ -71,13 +71,13 @@ directly executable locally.
 Local development options:
 
 - Use the metadata in `.github/agents/*.agent.md` as the spec
-	for building local automation scripts or small helper tools.
+    for building local automation scripts or small helper tools.
 - To manually run checks locally, use `markdownlint-cli2` as
-	shown above and implement any additional checks as scripts.
+    shown above and implement any additional checks as scripts.
 - If you run an LLM or agent framework locally, you can write a
-	small script that reads the agent metadata and performs the
-	same actions (read files, suggest fixes). This is advanced
-	and depends on the tooling you choose.
+    small script that reads the agent metadata and performs the
+    same actions (read files, suggest fixes). This is advanced
+    and depends on the tooling you choose.
 
 ## Continuous Integration
 
@@ -100,12 +100,13 @@ official GitHub tool.
 
 - If `npx` fails, ensure you have Node.js and npm installed.
 - If `pytest` or other test commands fail, make sure dev
-	dependencies are installed and environment variables are set.
+    dependencies are installed and environment variables are set.
 - For agent simulation, be explicit about which inputs and files
-	the agent should read so results are reproducible.
+    the agent should read so results are reproducible.
 
 ## Want a PR?
 
+specific instructions (Node, Python, Go, etc.). Tell me which
 If you'd like I can open a PR that adds more detailed, stack-
 specific instructions (Node, Python, Go, etc.). Tell me which
 stacks you want and I will add tailored commands.
