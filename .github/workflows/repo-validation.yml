@@ -1,0 +1,44 @@
+name: Repository Structure Validation
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate repo structure
+        run: |
+          REQUIRED_FILES=(
+            "README.md"
+            "LICENSE"
+            ".gitignore"
+          )
+
+          REQUIRED_DIRS=(
+            "docs"
+            ".github/workflows"
+          )
+
+          MISSING=0
+
+          for f in "${REQUIRED_FILES[@]}"; do
+            if [ ! -f "$f" ]; then
+              echo "::error file=$f::Missing required file: $f"
+              MISSING=1
+            fi
+          done
+
+          for d in "${REQUIRED_DIRS[@]}"; do
+            if [ ! -d "$d" ]; then
+              echo "::error file=$d::Missing required directory: $d"
+              MISSING=1
+            fi
+          done
+
+          if [ "$MISSING" -ne 0 ]; then
+            exit 1
+          fi
