@@ -1,80 +1,101 @@
-﻿# GitHub Starter Template
+﻿# 🚀 GitHub Starter Template
 
-A lightweight, practical starter repository with templates and helpers
-for bootstrapping new projects on GitHub.
+![Repo stars](https://img.shields.io/github/stars/Jamesockenden/github_starter?style=flat-square)
+![Repo issues](https://img.shields.io/github/issues/Jamesockenden/github_starter?style=flat-square)
+![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey?style=flat-square)
+![Docs build](https://github.com/Jamesockenden/github_starter/actions/workflows/docs-build.yml/badge.svg)
+![Markdown lint](https://github.com/Jamesockenden/github_starter/actions/workflows/lint-markdown.yml/badge.svg)
 
-## Features
+A lightweight, practical starter repository that helps you bootstrap
+new GitHub projects quickly and consistently.
 
-- A project bootstrap script for quickly creating new GitHub
-  repositories.
-- A Cookiecutter template for generating consistent project skeletons.
-- Built-in GitHub Actions for CI/CD automation.
-- Starter GitHub Agents metadata for automation tasks.
+<!-- TOC -->
+## 📑 Table of contents
 
-## Quick start
+- [What you'll find](#-what-youll-find)
+- [Quick start](#-quick-start)
+- [Features](#-features)
+- [Repository structure](#-repository-structure)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-1. Use this repository as a template on GitHub (Use this template).
-1. Install project dependencies (if used):
+## 📚 What you'll find
+
+- 🧰 Scripts to automate repository creation (`scripts/create_repo.py`)
+- 🍪 Cookiecutter template under `cookiecutter/` to generate projects
+- ⚙️ GitHub Actions workflows under `.github/workflows/`
+- 🤖 Starter GitHub Agents metadata under `.github/agents/`
+- 📄 Example docs under `docs/`
+
+## ✨ Quick start
+
+- On GitHub, click **Use this template → Create a new repository**.
+
+- (Optional) Install Python deps locally:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-1. Generate a new project using Cookiecutter (if present):
+- Generate a new project with Cookiecutter (if used):
 
 ```bash
 cookiecutter cookiecutter/
 ```
 
-1. (Optional) Create a GitHub repo automatically:
+- (Optional) Create a GitHub repo automatically from this machine:
 
 ```bash
 python scripts/create_repo.py --name my-new-project \
   --private --description "My project bootstrapped from github_starter"
 ```
 
-## Usage
+- Quick usage example (create a project and install deps):
 
-Workflows live under `.github/workflows/`. Edit or remove them to
-match your project's needs.
+```bash
+cookiecutter cookiecutter/ my-new-project
+cd my-new-project
+pip install -r requirements.txt
+```
 
-Agent metadata files are under `.github/agents/`. These are specs for
-GitHub Agents and may be used as references for automation.
+## 🧩 Features
 
-## Repository structure
+- ⚙️ Repo creation script — create repos via the GitHub API.
+- 🧩 Cookiecutter template — generate consistent project scaffolds.
+- 🔁 CI ready — example GitHub Actions for docs and validation.
+- 📚 Docs scaffolded — use `docs/` and MkDocs to publish docs.
+
+## 📁 Repository structure
 
 ```text
 github_starter/
- scripts/
-   create_repo.py
- .github/
-   workflows/
-   agents/
- docs/
- src/
- README.md
- LICENSE
- requirements.txt
+├─ scripts/
+│  └─ create_repo.py
+├─ cookiecutter/
+│  └─ {{cookiecutter.project_slug}}/
+├─ .github/
+│  ├─ workflows/
+│  └─ agents/
+├─ docs/
+├─ src/
+├─ README.md
+├─ LICENSE
+└─ requirements.txt
 ```
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome. Typical workflow:
+Contributions are welcome — fork, create a branch, and open a PR. Run
+the Markdown linter before opening a PR:
 
-1. Fork the repository.
-1. Create a feature branch.
-1. Commit and push your changes.
-1. Open a pull request.
+```powershell
+npx -y markdownlint-cli2 "**/*.md"
+```
 
-Please keep changes aligned with the template's goals: simple and
-reusable project bootstrapping.
+## 📜 License
 
-## License
+This project is licensed under the Creative Commons Attribution-
+NonCommercial 4.0 International (CC BY-NC 4.0). See the `LICENSE`
+file for full terms.
 
-This project is licensed under the MIT License. See the `LICENSE`
-file for details.
-
-## Notes
-
-- This repository is a starting point. Adapt workflows, tooling, and
-  agent metadata to suit your stack and policies.
+---
