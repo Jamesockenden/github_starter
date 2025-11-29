@@ -33,12 +33,6 @@ jobs:
       - name: Build MkDocs site
         run: mkdocs build --site-dir site
 
-      - name: Deploy to GitHub Pages (gh-pages branch)
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          # Use a user-provided Personal Access Token (recommended) stored
-          # in the repository secret `PAGES_DEPLOY_TOKEN`. If not provided,
-          # fall back to the default `GITHUB_TOKEN` (may be restricted).
-          github_token: ${{ secrets.PAGES_DEPLOY_TOKEN || github.token }}
-          publish_dir: ./site
+      # Deployment removed: this workflow now builds the site only.
+      # To publish, run `mkdocs build` locally and deploy with your preferred method.
       
