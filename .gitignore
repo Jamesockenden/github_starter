@@ -1,0 +1,29 @@
+# Basic .gitignore for common languages, editors and OS
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# Build outputs
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor directories
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp

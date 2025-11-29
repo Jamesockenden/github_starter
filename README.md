@@ -61,7 +61,7 @@ Include a `.gitignore` in your project root to exclude generated
 files, OS artifacts, temporary editor files, and build outputs.
 Common entries:
 
-```
+```gitignore
 # Node
 node_modules/
 
