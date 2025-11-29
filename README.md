@@ -1,4 +1,4 @@
-﻿# 🚀 GitHub Starter Template
+# 🚀 GitHub Starter Template
 
 ![Repo stars](https://img.shields.io/github/stars/Jamesockenden/github_starter?style=flat-square)
 ![Repo issues](https://img.shields.io/github/issues/Jamesockenden/github_starter?style=flat-square)
@@ -98,4 +98,3 @@ NonCommercial 4.0 International (CC BY-NC 4.0). See the `LICENSE`
 file for full terms.
 
 ---
-
