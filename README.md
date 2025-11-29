@@ -55,6 +55,31 @@ Start by editing `README.md` and `docs/index.md` to fit your
 project. Add code under `src/` and update or add workflows in
 `.github/workflows/` as needed.
 
+### Git ignore
+
+Include a `.gitignore` in your project root to exclude generated
+files, OS artifacts, temporary editor files, and build outputs.
+Common entries:
+
+```
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.sublime-workspace
+```
+
+Adjust entries to match your project's languages and tools.
+
 ## Contributing
 
 See `CONTRIBUTING.md` for guidance on repository standards,
