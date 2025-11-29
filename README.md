@@ -1,4 +1,4 @@
-# 🚀 GitHub Starter Template
+﻿# 🚀 GitHub Starter Template
 
 ![Repo stars](https://img.shields.io/github/stars/Jamesockenden/github_starter?style=flat-square)
 ![Repo issues](https://img.shields.io/github/issues/Jamesockenden/github_starter?style=flat-square)
@@ -30,19 +30,19 @@ new GitHub projects quickly and consistently.
 ## ✨ Quick start
 
 1. On GitHub, click **Use this template → Create a new repository**.
-1. (Optional) Install Python deps locally:
+2. (Optional) Install Python deps locally:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-1. Generate a new project with Cookiecutter (if used):
+3. Generate a new project with Cookiecutter (if used):
 
 ```bash
 cookiecutter cookiecutter/
 ```
 
-1. (Optional) Create a GitHub repo automatically from this machine:
+4. (Optional) Create a GitHub repo automatically from this machine:
 
 ```bash
 python scripts/create_repo.py --name my-new-project \
