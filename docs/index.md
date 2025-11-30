@@ -11,6 +11,5 @@ Useful links:
 
 Welcome to the documentation section. Here you'll find:
 
-- Overview
-- Architecture
-- Decisions (ADR directory)
+- Architecture `architecture.md`
+- Decisions (ADR directory) `decisions\`

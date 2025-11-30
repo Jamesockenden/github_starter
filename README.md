@@ -2,7 +2,7 @@
 
 ![Repo stars](https://img.shields.io/github/stars/Jamesockenden/github_starter?style=flat-square)
 ![Repo issues](https://img.shields.io/github/issues/Jamesockenden/github_starter?style=flat-square)
-![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square)
 ![Docs build](https://github.com/Jamesockenden/github_starter/actions/workflows/docs-build.yml/badge.svg)
 ![Markdown lint](https://github.com/Jamesockenden/github_starter/actions/workflows/lint-markdown.yml/badge.svg)
 
@@ -22,7 +22,7 @@ new GitHub projects quickly and consistently.
 ## 📚 What you'll find
 
 - 📘 Documentation built with MkDocs — see `mkdocs.yml` and the `docs/` folder (uses `mkdocs-material` by default).
-- 🍪 Cookiecutter template under `cookiecutter/` to generate projects quickly and consistently.
+- 🍪 Cookiecutter template under `cookiecutter/` to generate quick and consistently.
 - ⚙️ GitHub Actions workflows under `.github/workflows/` for validation and docs builds.
 - 🤖 Starter GitHub Agents metadata under `.github/agents/` (examples to get started).
 
@@ -34,12 +34,6 @@ new GitHub projects quickly and consistently.
 
 ```bash
 pip install -r requirements.txt
-```
-
-- Generate a new project with Cookiecutter (if used):
-
-```bash
-cookiecutter cookiecutter/
 ```
 
 Quick usage example (generate docs locally and preview):
@@ -66,8 +60,6 @@ cookiecutter cookiecutter/
 
 ```text
 github_starter/
-├─ scripts/
-│  └─ create_repo.py
 ├─ cookiecutter/
 │  └─ {{cookiecutter.project_slug}}/
 ├─ .github/
@@ -91,8 +83,11 @@ npx -y markdownlint-cli2 "**/*.md"
 
 ## 📜 License
 
-This project is licensed under the Creative Commons Attribution-
-NonCommercial 4.0 International (CC BY-NC 4.0). See the `LICENSE`
-file for full terms.
+This project is licensed under the MIT License.  
+See the [LICENSE](./LICENSE) file for details.
 
----
+## 🙌 Credits
+
+Created and maintained by **James Ockenden**.  
+Contributions are welcome — please open a pull request or issue if you’d like to help improve the project.  
+If you use this project, please provide attribution by linking back to the repository or mentioning the author.
