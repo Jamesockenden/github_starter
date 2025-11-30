@@ -10,9 +10,13 @@ you can extend them safely.
 
 ## What are Agent files?
 
-- Agent files are documentation/metadata files — they do not execute automatically. They describe an automation idea, suggested prompts, examples, or configuration that contributors can use or extend.
+- Agent files are documentation/metadata files — they do not execute automatically.
+  They describe an automation idea, suggested prompts, examples, or
+  configuration that contributors can use or extend.
 - Location: `.github/agents/`
-- File format: Markdown (`.md`) using a simple structure: title, short description, and sections such as `Usage`, `Examples`, and `Extending`.
+- File format: Markdown (`.md`) using a simple structure: title, short
+  description, and sections such as `Usage`, `Examples`, and
+  `Extending`.
 
 ## Why we keep them
 
@@ -43,16 +47,16 @@ How contributors can add variants, new prompts, or update metadata.
 ## How to extend or add an agent
 
 1. Fork or branch the repo.
-2. Create a new file in `.github/agents/` named
-  `something-descriptive.agent.md`.
-3. Follow the structure above and be concise. Include examples and
-  expected behavior.
-4. Run the Markdown linter locally:
+1. Create a new file in `.github/agents/` named
+   `something-descriptive.agent.md`.
+1. Follow the structure above and be concise. Include examples and
+   expected behavior.
+1. Run the Markdown linter locally:
 
 ```powershell
 npx -y markdownlint-cli2 "**/*.md"
 ```
-5. Open a PR describing the change and request a review.
+1. Open a PR describing the change and request a review.
 
 ## Testing and validation
 
