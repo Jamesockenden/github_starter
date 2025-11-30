@@ -1,5 +1,5 @@
 # 🤖 GitHub Agents (metadata)
- 
+
 This repository includes example "GitHub Agent" metadata files in
 `.github/agents/`. These are small, human-readable Markdown files
 (commonly named `*.agent.md`) that describe automated helpers, examples,
@@ -56,7 +56,7 @@ How contributors can add variants, new prompts, or update metadata.
 ```powershell
 npx -y markdownlint-cli2 "**/*.md"
 ```
- 
+
 1. Open a PR describing the change and request a review.
 
 ## Testing and validation

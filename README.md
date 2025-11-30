@@ -6,8 +6,8 @@
 ![Docs build](https://github.com/Jamesockenden/github_starter/actions/workflows/docs-build.yml/badge.svg)
 ![Markdown lint](https://github.com/Jamesockenden/github_starter/actions/workflows/lint-markdown.yml/badge.svg)
 
-A lightweight, practical starter repository that helps you bootstrap new
-GitHub projects quickly and consistently.
+A lightweight, practical starter repository that helps you bootstrap
+new GitHub projects quickly and consistently.
 
 <!-- TOC -->
 ## 📑 Table of contents
@@ -21,16 +21,12 @@ GitHub projects quickly and consistently.
 
 ## 📚 What you'll find
 
-- 📘 Documentation built with MkDocs — see `mkdocs.yml` and the
-	`docs/` folder. The docs use `mkdocs-material` by default for a clean
-	site theme and built-in search.
-- 🍪 Cookiecutter template under `cookiecutter/` to generate projects
-	quickly and consistently.
-- ⚙️ GitHub Actions workflows under `.github/workflows/` for validation
-	and docs builds.
-- 🤖 Starter GitHub Agents metadata under `.github/agents/` (examples to
-	get started). See `docs/agents.md` for details on how to use and
-	extend them.
+- 📘 Documentation built with MkDocs — see `mkdocs.yml` and the `docs/` folder.
+The docs use `mkdocs-material` by default for a clean site theme and built-in search.
+- 🍪 Cookiecutter template under `cookiecutter/` to generate projects quickly and consistently.
+- ⚙️ GitHub Actions workflows under `.github/workflows/` for validation and docs builds.
+- 🤖 Starter GitHub Agents metadata under `.github/agents/` (examples to get started).
+See `docs/agents.md` for details on how to use and extend them.
 
 ## ✨ Quick start
 
