@@ -24,8 +24,8 @@ new GitHub projects quickly and consistently.
 - 📘 Documentation built with MkDocs — see `mkdocs.yml` and the `docs/` folder (uses `mkdocs-material` by default).
 - 🍪 Cookiecutter template under `cookiecutter/` to generate quick and consistently.
 - ⚙️ GitHub Actions workflows under `.github/workflows/` for validation and docs builds.
-- 🤖 Starter GitHub Agents metadata under `.github/agents/` (examples to get started).
- - 🤖 Starter GitHub Agents metadata under `.github/agents/` (examples to get started). See `docs/agents.md` for details on how to use and extend them.
+ - 🤖 Starter GitHub Agents metadata under `.github/agents/` (examples to get started). See
+	 `docs/agents.md` for details on how to use and extend them.
 
 ## ✨ Quick start
 

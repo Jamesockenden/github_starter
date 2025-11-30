@@ -1,12 +1,12 @@
----
-title: GitHub Agents
----
-
 # 🤖 GitHub Agents (metadata)
 
-This repository includes example "GitHub Agent" metadata files in `.github/agents/`. These are small, human-readable Markdown files (commonly named `*.agent.md`) that describe automated helpers, examples, or agent-like behaviours used by contributors or tooling.
+This repository includes example "GitHub Agent" metadata files in
+`.github/agents/`. These are small, human-readable Markdown files
+(commonly named `*.agent.md`) that describe automated helpers, examples,
+or agent-like behaviours used by contributors or tooling.
 
-This short guide explains what they are, how they are organized, and how you can extend them safely.
+This short guide explains what they are, how they are organized, and how
+you can extend them safely.
 
 ## What are Agent files?
 
@@ -43,16 +43,26 @@ How contributors can add variants, new prompts, or update metadata.
 ## How to extend or add an agent
 
 1. Fork or branch the repo.
-2. Create a new file in `.github/agents/` named something-descriptive.agent.md.
-3. Follow the structure above and be concise. Include examples and expected behavior.
-4. Run the Markdown linter locally: `npx -y markdownlint-cli2 "**/*.md"`.
+2. Create a new file in `.github/agents/` named
+  `something-descriptive.agent.md`.
+3. Follow the structure above and be concise. Include examples and
+  expected behavior.
+4. Run the Markdown linter locally:
+
+```powershell
+npx -y markdownlint-cli2 "**/*.md"
+```
 5. Open a PR describing the change and request a review.
 
 ## Testing and validation
 
-- There is no runtime engine for these files in this repo — they are metadata. To validate:
-  - Run `npx -y markdownlint-cli2 "**/*.md"` to ensure formatting is lint-clean.
-  - Preview docs with MkDocs (`mkdocs serve`) to check rendering under `docs/`.
+- There is no runtime engine for these files in this repo — they are
+  metadata. To validate:
+
+  - Run `npx -y markdownlint-cli2 "**/*.md"` to ensure formatting is
+    lint-clean.
+  - Preview docs with MkDocs (`mkdocs serve`) to check rendering under
+    `docs/`.
 
 ## Best practices
 
