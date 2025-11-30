@@ -104,9 +104,9 @@ official GitHub tool.
 - For agent simulation, be explicit about which inputs and files
     the agent should read so results are reproducible.
 
-## Want a PR?
+## Want More?
 
 specific instructions (Node, Python, Go, etc.). Tell me which
-If you'd like I can open a PR that adds more detailed, stack-
+If you'd like I can add more detailed, stack-
 specific instructions (Node, Python, Go, etc.). Tell me which
 stacks you want and I will add tailored commands.

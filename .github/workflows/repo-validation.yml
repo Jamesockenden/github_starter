@@ -16,6 +16,10 @@ jobs:
             "README.md"
             "LICENSE"
             ".gitignore"
+            "mkdocs.yml"
+            ".github/workflows/docs-build.yml"
+            ".github/workflows/repo-validation.yml" 
+            
           )
 
           REQUIRED_DIRS=(
