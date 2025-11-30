@@ -6,8 +6,8 @@
 ![Docs build](https://github.com/Jamesockenden/github_starter/actions/workflows/docs-build.yml/badge.svg)
 ![Markdown lint](https://github.com/Jamesockenden/github_starter/actions/workflows/lint-markdown.yml/badge.svg)
 
-A lightweight, practical starter repository that helps you bootstrap
-new GitHub projects quickly and consistently.
+A lightweight, practical starter repository that helps you bootstrap new
+GitHub projects quickly and consistently.
 
 <!-- TOC -->
 ## 📑 Table of contents

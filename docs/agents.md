@@ -1,5 +1,5 @@
 # 🤖 GitHub Agents (metadata)
-
+ 
 This repository includes example "GitHub Agent" metadata files in
 `.github/agents/`. These are small, human-readable Markdown files
 (commonly named `*.agent.md`) that describe automated helpers, examples,
