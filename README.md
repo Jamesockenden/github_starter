@@ -21,11 +21,10 @@ new GitHub projects quickly and consistently.
 
 ## 📚 What you'll find
 
-- 🧰 Scripts to automate repository creation (`scripts/create_repo.py`)
-- 🍪 Cookiecutter template under `cookiecutter/` to generate projects
-- ⚙️ GitHub Actions workflows under `.github/workflows/`
-- 🤖 Starter GitHub Agents metadata under `.github/agents/`
-- 📄 Example docs under `docs/`
+- 📘 Documentation built with MkDocs — see `mkdocs.yml` and the `docs/` folder (uses `mkdocs-material` by default).
+- 🍪 Cookiecutter template under `cookiecutter/` to generate projects quickly and consistently.
+- ⚙️ GitHub Actions workflows under `.github/workflows/` for validation and docs builds.
+- 🤖 Starter GitHub Agents metadata under `.github/agents/` (examples to get started).
 
 ## ✨ Quick start
 
@@ -43,24 +42,22 @@ pip install -r requirements.txt
 cookiecutter cookiecutter/
 ```
 
-- (Optional) Create a GitHub repo automatically from this machine:
+Quick usage example (generate docs locally and preview):
 
 ```bash
-python scripts/create_repo.py --name my-new-project \
-  --private --description "My project bootstrapped from github_starter"
+pip install -r docs/requirements.txt
+mkdocs serve
 ```
 
-- Quick usage example (create a project and install deps):
+Quick example to generate a project from the template:
 
 ```bash
-cookiecutter cookiecutter/ my-new-project
-cd my-new-project
-pip install -r requirements.txt
+cookiecutter cookiecutter/
 ```
 
 ## 🧩 Features
 
-- ⚙️ Repo creation script — create repos via the GitHub API.
+- 📘 MkDocs documentation — `docs/` + `mkdocs.yml` provide the documentation source and site configuration.
 - 🧩 Cookiecutter template — generate consistent project scaffolds.
 - 🔁 CI ready — example GitHub Actions for docs and validation.
 - 📚 Docs scaffolded — use `docs/` and MkDocs to publish docs.
