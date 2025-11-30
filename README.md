@@ -23,7 +23,7 @@ new GitHub projects quickly and consistently.
 
 - 📘 Documentation built with MkDocs — see `mkdocs.yml` and the
 	`docs/` folder. The docs use `mkdocs-material` by default for a clean
-	site theme and search.
+	site theme and built-in search.
 - 🍪 Cookiecutter template under `cookiecutter/` to generate projects
 	quickly and consistently.
 - ⚙️ GitHub Actions workflows under `.github/workflows/` for validation

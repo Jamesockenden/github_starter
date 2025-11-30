@@ -56,6 +56,7 @@ How contributors can add variants, new prompts, or update metadata.
 ```powershell
 npx -y markdownlint-cli2 "**/*.md"
 ```
+ 
 1. Open a PR describing the change and request a review.
 
 ## Testing and validation
