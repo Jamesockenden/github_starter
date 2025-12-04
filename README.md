@@ -27,6 +27,7 @@ The docs use `mkdocs-material` by default for a clean site theme and built-in se
 - ⚙️ GitHub Actions workflows under `.github/workflows/` for validation and docs builds.
 - 🤖 Starter GitHub Agents metadata under `.github/agents/` (examples to get started).
 See `docs/agents.md` for details on how to use and extend them.
+- [.editorconfig](https://editorconfig.org/) helps maintain consistent styles across various editors and IDEs
 
 ## ✨ Quick start
 
@@ -50,6 +51,21 @@ Quick example to generate a project from the template:
 ```bash
 cookiecutter cookiecutter/
 ```
+
+## Repository Structure
+
+- Use meaningful names for files and directories.  
+- Repositories should be limited to the files necessary for building projects.  
+- Place documentation under /docs/.  
+- Exclude sensitive files and information, like secrets.  
+- Avoid committing large binaries where possible.  
+- Add .github/ISSUE_TEMPLATE/*.md to customise issue templates.  
+- Add .github/PULL_REQUEST_TEMPLATE/*.md to customise your pull requests.  
+
+## Readme Guidance
+
+- [Badges](https://shields.io/)  
+- [Emojis](https://unicode.org/emoji/charts/full-emoji-list.html)  
 
 ## 🧩 Features
 
